@@ -3,9 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Groups** | **[]string** |  | [optional] [default to null]
-**Name** | **string** |  | [optional] [default to null]
-**Users** | **[]string** |  | [optional] [default to null]
+**Pin** | **string** | 6-digit PIN, required for MacOS, to lock the device | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
