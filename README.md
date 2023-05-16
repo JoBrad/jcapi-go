@@ -38,7 +38,7 @@ import (
 	"context"
 	"fmt"
 
-	jcapiv2 "github.com/TheJumpCloud/jcapi-go/v2"
+	jcapiv2 "github.com/JoBrad/jcapi-go/v2"
 )
 
 func main() {
