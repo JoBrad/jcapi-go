@@ -27,7 +27,7 @@ Optional parameters are passed through a map[string]interface{}.
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **systemId** | **string**|  | 
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**| Organization identifier that can be obtained from console settings. | 
 
 ### Return type
 

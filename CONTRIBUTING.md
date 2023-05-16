@@ -60,7 +60,7 @@ component to increment for a new release. The tool generates a go source file th
 exported elements of the API. This source file can be compared to the one for the previous version
 to determine which semantic versioning component (major, minor, or patch) to increment.
 
-In addition, the generated go file can be compiled to validate the correctness of the generated SDK to 
+In addition, the generated go file can be compiled to validate the correctness of the generated SDK to
 some extent.
 
 The tool is a linux executable. (It runs in docker on other OSs).
@@ -111,7 +111,7 @@ $ diff <(sort ref_v1-1_6_1.go) <(sort ref_v1-2_0_0.go)
 >     var _ string = new(v1.SystemSshdParams).Value
 657a670
 >     var _ time.Time = new(v1.Body1).ExclusionUntil
-$ 
+$
 ```
 
 In general, changed or deleted lines imply a MAJOR component increment, added lines imply a MINOR component

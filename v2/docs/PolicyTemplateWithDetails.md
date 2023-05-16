@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **Id** | **string** | ObjectId uniquely identifying a Policy Template. | [optional] [default to null]
 **Name** | **string** | The unique name for the Policy Template. | [optional] [default to null]
 **OsMetaFamily** | **string** |  | [optional] [default to null]
+**OsRestrictions** | [**[]OsRestriction**](OSRestriction.md) |  | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

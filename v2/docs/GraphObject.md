@@ -3,6 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**Attributes** | [***GraphAttributes**](GraphAttributes.md) |  | [optional] [default to null]
 **Id** | **string** | The ObjectID of the graph object. | [default to null]
 **Type_** | **string** | The type of graph object. | [default to null]
 

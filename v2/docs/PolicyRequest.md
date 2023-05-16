@@ -4,6 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Name** | **string** | The description for this specific Policy. | [default to null]
+**Notes** | **string** | The notes for this specific Policy. | [optional] [default to null]
 **Template** | [***PolicyRequestTemplate**](PolicyRequest_template.md) |  | [optional] [default to null]
 **Values** | [**[]PolicyValue**](PolicyValue.md) |  | [optional] [default to null]
 

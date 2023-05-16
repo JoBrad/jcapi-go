@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Amgerage** | **int32** |  | [optional] [default to null]
+**Amperage** | **int32** |  | [optional] [default to null]
 **Charged** | **int32** |  | [optional] [default to null]
 **Charging** | **int32** |  | [optional] [default to null]
 **CollectionTime** | **string** |  | [optional] [default to null]
